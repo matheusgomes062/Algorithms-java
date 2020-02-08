@@ -9,6 +9,9 @@
 
   Defect: Union too expensive
   Takes N^2 array access to process sequence of N union commands on N objects.
+
+  Worst-case time: M N
+  M union-find operations on a set of N objects
 */
 
 import java.time.LocalTime;

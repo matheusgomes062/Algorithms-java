@@ -9,6 +9,10 @@
 
   Defect: Trees can get tall.
   Find too expensive (could be N array accesses)
+
+  Worst-case time: M N
+  Worst-case time with path compression: N + M log N
+  M union-find operations on a set of N objects
 */
 
 import java.time.LocalTime;
@@ -23,8 +27,11 @@ public class QuickUnionUF {
   }
 
   private int root(int i) {
-    while (i != id[i])
+    while (i != id[i]) {
+      // add this if you want to test path compression!
+      // id[p] = id[id[p]];
       i = id[i];
+    }
     return i;
   }
 
