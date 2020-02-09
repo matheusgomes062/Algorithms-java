@@ -76,15 +76,15 @@ public class WeightedQuickUnion {
     System.out.print("Enter integer: ");
     int N = myInput.nextInt();
     WeightedQuickUnion uf = new WeightedQuickUnion(N);
-    while (myInput.hasNext()) {
-      int p = myInput.nextInt();
-      int q = myInput.nextInt();
-      if (uf.connected(p, q))
-        continue;
-      uf.union(p, q);
-      System.out.println(p + " " + q);
-      myInput.close();
-    }
+    // while (myInput.hasNext()) {
+    //   int p = myInput.nextInt();
+    //   int q = myInput.nextInt();
+    //   if (uf.connected(p, q))
+    //     continue;
+    //   uf.union(p, q);
+    //   System.out.println(p + " " + q);
+    //   myInput.close();
+    // }
     System.out.println(uf.count() + " components");
     WeightedQuickUnion.calculateTimePassedInSeconds(before);
     System.out.println(WeightedQuickUnion.id[0]);
