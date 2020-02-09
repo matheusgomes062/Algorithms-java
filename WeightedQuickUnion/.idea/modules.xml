@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/percolation-mg.iml" filepath="$PROJECT_DIR$/percolation-mg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeightedQuickUnion.iml" filepath="$PROJECT_DIR$/WeightedQuickUnion.iml" />
     </modules>
   </component>
 </project>
