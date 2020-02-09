@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="042f10e3-4d36-48ea-9e6c-559ec90124d6" name="Default Changelist" comment="" />
+    <list default="true" id="042f10e3-4d36-48ea-9e6c-559ec90124d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/stdlib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/algs4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeightedQuickUnion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WeightedQuickUnion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WeightedQuickUnion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeightedQuickUnion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XYgBKlH25xjTRAzjEB6lGW3F6O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +33,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithms/stdlib.jar!/" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algs4.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -59,26 +71,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581228372140" />
-    <state x="1106" y="262" key="FileChooserDialogImpl" timestamp="1581229076060">
+    <state x="1106" y="262" key="FileChooserDialogImpl" timestamp="1581229230070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1106" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581229076060" />
-    <state width="914" height="344" key="GridCell.Tab.0.bottom" timestamp="1581229077739">
+    <state x="1106" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581229230070" />
+    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1581229545328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581229077739" />
-    <state width="914" height="344" key="GridCell.Tab.0.center" timestamp="1581229077739">
+    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581229545328" />
+    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1581229545328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581229077739" />
-    <state width="914" height="344" key="GridCell.Tab.0.left" timestamp="1581229077739">
+    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581229545328" />
+    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1581229545327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581229077739" />
-    <state width="914" height="344" key="GridCell.Tab.0.right" timestamp="1581229077739">
+    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581229545327" />
+    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1581229545328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581229077739" />
+    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581229545328" />
     <state width="914" height="344" key="GridCell.Tab.1.bottom" timestamp="1581229077739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -95,9 +107,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581229077739" />
-    <state x="880" y="95" key="SettingsEditor" timestamp="1581228343110">
+    <state x="880" y="95" key="SettingsEditor" timestamp="1581229232320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="880" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581228343110" />
+    <state x="880" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581229232320" />
+    <state x="1135" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581229203596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1135" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581229203596" />
   </component>
 </project>

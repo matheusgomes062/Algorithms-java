@@ -94,16 +94,19 @@
      */
     public static void main(String[] args) {
         int N = StdIn.readInt();
-        int count = 1;
+        int count = 0;
         WeightedQuickUnion uf = new WeightedQuickUnion(N);
 
         while (count < N) {
             int p = StdIn.readInt();
+            count++;
+            if(count>=N) break;
             int q = StdIn.readInt();
+            count++;
+            if(count>=N) break;
             if (uf.connected(p, q)) continue;
             uf.union(p, q);
             StdOut.println(p + " " + q);
-            count = count*2;
         }
         StdOut.println(uf.count() + " components");
         for (int i = 0; i < N; i++)
