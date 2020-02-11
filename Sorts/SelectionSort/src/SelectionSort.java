@@ -40,13 +40,18 @@ public class SelectionSort {
     }
 
     public static void calculateTimePassedInSeconds(int before) {
-        System.out.println((LocalTime.now().getNano() - before) / 1000000);
+        System.out.println("Time spent in seconds: " + (LocalTime.now().getNano() - before) / 1000000);
     }
 
     public static void main(String[] args)throws IOException {
-        int before = LocalTime.now().getNano();
+        Scanner comp = new Scanner(System.in);
 
-        Comparable[] a = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+        String b  = comp.nextLine();
+
+        Comparable[] a = b.split(" ");
+
+        int before = LocalTime.now().getNano();
+//        Comparable[] a = {9, 8, 7, 6, 5, 4, 3, 2, 1};
         SelectionSort.sort(a);
         calculateTimePassedInSeconds(before);
         show(a);
