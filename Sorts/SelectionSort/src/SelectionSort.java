@@ -5,7 +5,6 @@ import java.time.LocalTime;
 import java.util.Comparator;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdIn;
-import java.time.LocalTime;
 import java.util.Scanner;
 
 public class SelectionSort {
