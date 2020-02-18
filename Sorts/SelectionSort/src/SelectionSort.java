@@ -50,7 +50,6 @@ public class SelectionSort {
         Comparable[] a = b.split(" ");
 
         int before = LocalTime.now().getNano();
-//        Comparable[] a = {9, 8, 7, 6, 5, 4, 3, 2, 1};
         SelectionSort.sort(a);
         calculateTimePassedInSeconds(before);
         show(a);
