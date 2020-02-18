@@ -1,3 +1,6 @@
+import java.time.LocalTime;
+import java.util.Scanner;
+
 public class MergeSort {
 
     private MergeSort() {}
@@ -14,6 +17,11 @@ public class MergeSort {
             else if (less(aux[j], aux[i])) a[k] = aux[j++];
             else                           a[k] = aux[i++];
         }
+    }
+
+    public static void sort(Comparable[] a) {
+        Comparable[] aux = new Comparable[a.length];
+        sort(a, aux, 0, a.length-1);
     }
 
     private static void sort(Comparable[] a, Comparable[] aux, int lo, int hi) {
@@ -34,9 +42,18 @@ public class MergeSort {
         }
     }
 
+    public static void calculateTimePassedInSeconds(int before) {
+        System.out.println("Time spent in seconds: " + (LocalTime.now().getNano() - before) / 1000000);
+    }
+
     public static void main(String[] args) {
-        String[] a = StdIn.readAllStrings();
+        Scanner comp = new Scanner(System.in);
+        String b = comp.nextLine();
+        Comparable[] a = b.split(" ");
+
+        int before = LocalTime.now().getNano();
         MergeSort.sort(a);
+        calculateTimePassedInSeconds(before);
         show(a);
     }
 }
