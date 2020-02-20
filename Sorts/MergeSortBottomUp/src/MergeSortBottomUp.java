@@ -1,9 +1,10 @@
 import java.time.LocalTime;
 import java.util.Scanner;
 
-public class MergeSort {
+public class MergeSortBottomUp {
 
-    private MergeSort() {}
+    private MergeSortBottomUp() {}
+    private static Comparable[] aux;
 
     private static void merge(Comparable[] a, Comparable[] aux, int lo, int mid, int hi) {
         for(int k = lo; k <= hi; k++) {
@@ -19,18 +20,13 @@ public class MergeSort {
         }
     }
 
+    // save times but uses more memory!
     public static void sort(Comparable[] a) {
-        Comparable[] aux = new Comparable[a.length];
-        sort(a, aux, 0, a.length-1);
-    }
-
-    private static void sort(Comparable[] a, Comparable[] aux, int lo, int hi) {
-        if (hi <= lo) return;
-        int mid = lo + (hi - lo) / 2;
-        sort(a, aux, lo, mid);
-        sort(a, aux, mid + 1, hi);
-        if(!less(a[mid+1], a[mid])) return; // Improvement to save time on merge sort
-        merge(a, aux, lo, mid, hi);
+        int N = a.length;
+        aux = new Comparable[N];
+        for (int sz = 1; sz < N; sz = sz+sz)
+            for (int lo = 0; lo < N-sz; lo += sz+sz)
+                MergeSortBottomUp.merge (a, aux, lo,lo + sz - 1, Math.min(lo + sz + sz - 1, N-1));
     }
 
     private static boolean less(Comparable v, Comparable w) {
@@ -53,7 +49,7 @@ public class MergeSort {
         Comparable[] a = b.split(" ");
 
         int before = LocalTime.now().getNano();
-        MergeSort.sort(a);
+        MergeSortBottomUp.sort(a);
         calculateTimePassedInSeconds(before);
         show(a);
     }
